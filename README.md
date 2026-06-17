@@ -10,6 +10,8 @@ This portfolio was built to present my experience, projects, and technical skill
 
 ---
 
+## 🌟 Live Demo
+
 👉 [Click here for live demo (netlify)](https://misstracyportfolio.netlify.app)
 
 ---
@@ -52,7 +54,7 @@ index.html
 style.css
 script.js
 
-## 🌟 Live Demo
+
 
 
 
