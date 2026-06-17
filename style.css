@@ -77,6 +77,8 @@ header{
     top:0;
     background:#0f0f0fe8;
     backdrop-filter:blur(10px);
+    z-index:9999;
+
 }
 
 .logo{
