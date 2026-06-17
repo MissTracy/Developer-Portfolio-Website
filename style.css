@@ -474,6 +474,21 @@ footer{
     .hero h1{
         font-size:3rem;
     }
+
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        align-items:center;
+    }
+
+    .btn,
+    .btn-outline{
+        width:100%;
+        max-width:250px;
+        text-align:center;
+    }
 }
 
 
