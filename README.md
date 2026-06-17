@@ -10,6 +10,10 @@ This portfolio was built to present my experience, projects, and technical skill
 
 ---
 
+👉 [Click here for live demo (netlify)](https://misstracyportfolio.netlify.app)
+
+---
+
 ## ⚡ Features
 
 -  Smooth responsive layout (mobile + desktop)
@@ -50,6 +54,6 @@ script.js
 
 ## 🌟 Live Demo
 
-Add your deployed link here (Netlify )
 
----
+
+
