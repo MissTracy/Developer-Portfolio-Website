@@ -66,3 +66,15 @@ const headingObserver = new IntersectionObserver(
 headings.forEach(heading => {
     headingObserver.observe(heading);
 });
+
+
+// =========================
+// HAM MENU
+
+
+const hamburger = document.getElementById("hamburger");
+const nav = document.getElementById("nav");
+
+hamburger.addEventListener("click", () => {
+    nav.classList.toggle("show");
+});
