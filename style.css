@@ -466,9 +466,9 @@ footer{
         width:250px;
     }
 
-    nav{
+    /* nav{
         display:none;
-    }
+    } */
 
     .skills{
         grid-template-columns:repeat(2,1fr);
@@ -501,6 +501,8 @@ footer{
         display:block;
     }
 
+    
+
     nav{
         position:absolute;
         top:70px;
@@ -522,6 +524,32 @@ footer{
 
     nav a{
         padding:10px 0;
+    }
+
+    /* .overlay{
+        position:fixed;
+        inset:0;
+        background:rgba(0,0,0,.6);
+        opacity:0;
+        visibility:hidden;
+        transition:.3s;
+        z-index:998;
+    } */
+
+    .overlay{
+        position:fixed;
+        inset:0;
+        background:rgba(0,0,0,.4);
+        backdrop-filter:blur(4px);
+        opacity:0;
+        visibility:hidden;
+        transition:.3s;
+        z-index:998;
+    }
+    
+    .overlay.show{
+        opacity:1;
+        visibility:visible;
     }
 }
 

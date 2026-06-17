@@ -74,7 +74,25 @@ headings.forEach(heading => {
 
 const hamburger = document.getElementById("hamburger");
 const nav = document.getElementById("nav");
+const overlay = document.getElementById("overlay");
 
-hamburger.addEventListener("click", () => {
-    nav.classList.toggle("show");
-});
+if (hamburger && nav && overlay) {
+
+    hamburger.addEventListener("click", () => {
+        nav.classList.toggle("show");
+        overlay.classList.toggle("show");
+    });
+
+    overlay.addEventListener("click", () => {
+        nav.classList.remove("show");
+        overlay.classList.remove("show");
+    });
+
+    document.querySelectorAll("#nav a").forEach(link => {
+        link.addEventListener("click", () => {
+            nav.classList.remove("show");
+            overlay.classList.remove("show");
+        });
+    });
+
+}
